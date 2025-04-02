@@ -1,0 +1,18 @@
+body {
+    width: 70%;
+    max-width: 700px;
+    margin: auto;
+    
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    border: 2px solid rgb(170, 170, 142);
+    border-radius: 15px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
