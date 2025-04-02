@@ -36,4 +36,15 @@ export default class Todos {
         this.viewTodos();
         });
     }
+    viewInput() {
+        new TodoInput(this.ipElem);
+    }
+    viewTodos() {
+        this.ipElem.innerHTML = "";
+        for (let index = 0; index < this.#lista.length; index++) {
+            const element = this.#lista[index];
+            new Todo(element, this.pElem, index);
+            
+        }
+    }
 }   
